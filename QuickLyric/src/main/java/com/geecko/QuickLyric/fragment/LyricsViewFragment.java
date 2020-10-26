@@ -518,9 +518,9 @@ public class LyricsViewFragment extends Fragment implements Lyrics.Callback, Swi
                 musicFile = Id3Reader.getFile(getActivity(), artist, title, requestPermission);
 
             if (url == null)
-                new DownloadThread(new WeakReference<>(this), player, 0L, musicFile, getActivity(), artist, title).start();
+                new DownloadThread(new WeakReference<>(this), player, 0L, musicFile, artist, title).start();
             else
-                new DownloadThread(new WeakReference<>(this), player, duration, null, getActivity(), url, artist, title).start();
+                new DownloadThread(new WeakReference<>(this), player, duration, null, url, artist, title).start();
 
         } else if (lyrics != null)
             onLyricsDownloaded(lyrics);

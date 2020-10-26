@@ -46,7 +46,7 @@ public class LyricsChart {
 
     public static final String domain = "api.chartlyrics.com";
 
-    public static Lyrics fromMetaData(String originalArtist, String originalTitle, boolean lrc, Chromaprint.Fingerprint fingerprint, String player) {
+    public static Lyrics fromMetaData(String originalArtist, String originalTitle, boolean lrc, String player) {
         String json;
         try {
             String url = "http://api.chartlyrics.com/apiv1.asmx/SearchLyricDirect?"

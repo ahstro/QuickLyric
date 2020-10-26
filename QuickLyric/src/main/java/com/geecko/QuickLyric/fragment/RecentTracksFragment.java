@@ -21,10 +21,10 @@ package com.geecko.QuickLyric.fragment;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
-import android.app.Fragment;
 import android.os.Bundle;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import androidx.appcompat.app.ActionBar;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;

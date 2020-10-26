@@ -18,7 +18,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.0'
+        classpath 'com.android.tools.build:gradle:4.1.0'
     }
 }
 
@@ -30,8 +30,8 @@ android {
             jniLibs.srcDir 'src/main/jniLibs'
         }
     }
-    compileSdkVersion 28
-    buildToolsVersion '26.0.3'
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
 
     defaultConfig {
         applicationId "com.geecko.QuickLyric"
@@ -39,7 +39,7 @@ android {
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         multiDexEnabled true
         minSdkVersion 16
-        targetSdkVersion 28
+        targetSdkVersion 29
         vectorDrawables.useSupportLibrary = true
         versionCode 219
         versionName "3.5.4c"

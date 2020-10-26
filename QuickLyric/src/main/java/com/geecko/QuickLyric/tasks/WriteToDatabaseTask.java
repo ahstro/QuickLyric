@@ -19,7 +19,6 @@
 
 package com.geecko.QuickLyric.tasks;
 
-import android.app.Fragment;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -28,6 +27,8 @@ import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.collection.LongSparseArray;
+import androidx.fragment.app.Fragment;
+
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
