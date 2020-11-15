@@ -622,7 +622,7 @@ public class LyricsOverlayService extends Service implements FloatingViewListene
                 else {
                     DownloadThread.LRC = PreferenceManager.getDefaultSharedPreferences(context)
                             .getBoolean("pref_lrc", true);
-                    new DownloadThread(new WeakReference<>(callback), player, duration, null, context, metadata[0], metadata[1]).start(); // FIXME use queue
+                    new DownloadThread(new WeakReference<>(callback), player, duration, null, metadata[0], metadata[1]).start(); // FIXME use queue
                 }
             } else {
                 callback.onLyricsDownloaded(null);
