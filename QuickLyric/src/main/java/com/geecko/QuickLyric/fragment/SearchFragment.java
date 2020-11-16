@@ -20,7 +20,6 @@
 package com.geecko.QuickLyric.fragment;
 
 import android.app.Activity;
-import android.app.ListFragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -28,8 +27,9 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ListView;
+
+import androidx.fragment.app.ListFragment;
 
 import com.geecko.QuickLyric.App;
 import com.geecko.QuickLyric.MainActivity;
