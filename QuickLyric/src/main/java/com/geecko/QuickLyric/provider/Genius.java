@@ -122,7 +122,7 @@ public class Genius {
             result = new Lyrics(Lyrics.NEGATIVE_RESULT);
         Pattern pattern = Pattern.compile("\\[.+\\]");
         StringBuilder builder = new StringBuilder();
-        for (String line : text.split("<br> ")) {
+        for (String line : text.split("<br>")) {
             String strippedLine = line.replaceAll("\\s", "");
             if (!pattern.matcher(strippedLine).matches() && !(strippedLine.isEmpty() && builder.length() == 0))
                 builder.append(line.replaceAll("\\P{Print}", "")).append("<br/>");
