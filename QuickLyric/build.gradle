@@ -106,7 +106,7 @@ dependencies {
     implementation 'org.jsoup:jsoup:1.13.1'
     implementation 'com.github.geecko86:FloatingView:963f080178'
     implementation('com.github.ozodrukh:CircularReveal:2.0.1@aar') { transitive = true }
-    implementation 'com.github.zagum:SpeechRecognitionView:1.0.2'
+    implementation 'com.github.zagum:SpeechRecognitionView:1.2.2'
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.okhttp3:okhttp:4.7.2'
     implementation 'com.zzhoujay.materialcolors:materialcolors:1.0.0'
